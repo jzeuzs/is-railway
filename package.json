@@ -4,11 +4,39 @@
 	"description": "Check if the current process is running inside Railway",
 	"license": "Apache-2.0",
 	"repository": "1chiSensei/is-railway",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"bin": "./dist/cli.js",
+	"homepage": "https://github.com/1chiSensei/is-railway",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js"
+	},
 	"author": {
 		"name": "Yoshida Tomio",
 		"email": "mail@tomio.codes",
 		"url": "https://github.com/1chiSensei"
 	},
+	"scripts": {
+		"build": "yarn clean && tsc -b src && gen-esm-wrapper ./dist/index.js ./dist/index.mjs",
+		"test": "node scripts/test.mjs",
+		"clean": "node scripts/clean.mjs"
+	},
+	"bugs": {
+		"url": "https://github.com/1chiSensei/is-railway/issues"
+	},
+	"keywords": [
+		"railway",
+		"railway.app",
+		"dev.new",
+		"check",
+		"detect"
+	],
+	"files": [
+		"dist",
+		"!dist/tsconfig.tsbuildinfo"
+	],
 	"devDependencies": {
 		"@sapphire/eslint-config": "^3.2.3",
 		"@sapphire/prettier-config": "^1.1.6",
@@ -17,8 +45,10 @@
 		"@types/node": "^16.7.5",
 		"@types/prettier": "^2",
 		"eslint": "^7.32.0",
+		"gen-esm-wrapper": "^1.1.2",
 		"prettier": "^2.3.2",
 		"typescript": "^4.4.2"
 	},
+	"prettier": "@sapphire/prettier-config",
 	"packageManager": "yarn@3.1.0-rc.1"
 }
