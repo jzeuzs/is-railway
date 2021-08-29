@@ -1,6 +1,6 @@
 {
 	"name": "is-railway",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "Check if the current process is running inside Railway",
 	"license": "Apache-2.0",
 	"repository": "1chiSensei/is-railway",
@@ -45,11 +45,15 @@
 		"@types/eslint": "^7",
 		"@types/node": "^16.7.5",
 		"@types/prettier": "^2",
+		"@types/update-notifier": "^5",
 		"eslint": "^7.32.0",
 		"gen-esm-wrapper": "^1.1.2",
 		"prettier": "^2.3.2",
 		"typescript": "^4.4.2"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.1.0-rc.1"
+	"packageManager": "yarn@3.1.0-rc.1",
+	"dependencies": {
+		"update-notifier": "^5.1.0"
+	}
 }
