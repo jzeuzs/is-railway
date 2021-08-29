@@ -1,6 +1,6 @@
 {
 	"name": "is-railway",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Check if the current process is running inside Railway",
 	"license": "Apache-2.0",
 	"repository": "1chiSensei/is-railway",
@@ -34,8 +34,8 @@
 		"detect"
 	],
 	"files": [
-		"dist",
-		"!dist/tsconfig.tsbuildinfo"
+		"dist/index.*",
+		"dist/cli.*"
 	],
 	"devDependencies": {
 		"@sapphire/eslint-config": "^3.2.3",
