@@ -1,0 +1,24 @@
+{
+	"name": "is-railway",
+	"version": "1.0.0",
+	"description": "Check if the current process is running inside Railway",
+	"license": "Apache-2.0",
+	"repository": "1chiSensei/is-railway",
+	"author": {
+		"name": "Yoshida Tomio",
+		"email": "mail@tomio.codes",
+		"url": "https://github.com/1chiSensei"
+	},
+	"devDependencies": {
+		"@sapphire/eslint-config": "^3.2.3",
+		"@sapphire/prettier-config": "^1.1.6",
+		"@sapphire/ts-config": "^3.0.0",
+		"@types/eslint": "^7",
+		"@types/node": "^16.7.5",
+		"@types/prettier": "^2",
+		"eslint": "^7.32.0",
+		"prettier": "^2.3.2",
+		"typescript": "^4.4.2"
+	},
+	"packageManager": "yarn@3.1.0-rc.1"
+}
