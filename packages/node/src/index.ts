@@ -15,7 +15,7 @@ const isRailway = () =>
 	exists(
 		process.env.RAILWAY_STATIC_URL ||
 			process.env.RAILWAY_ENVIRONMENT ||
-			process.env.RAILWAY_DEPLOYMENT_OVERLAP_SECONDS ||
+			process.env.RAILWAY_HEALTHCHECK_TIMEOUT_SEC ||
 			process.env.RAILWAY_GIT_COMMIT_SHA ||
 			process.env.RAILWAY_GIT_AUTHOR ||
 			process.env.RAILWAY_GIT_BRANCH ||

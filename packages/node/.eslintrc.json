@@ -1,0 +1,6 @@
+{
+	"extends": "@sapphire/eslint-config",
+	"parserOptions": {
+		"project": "./packages/node/tsconfig.eslint.json"
+	}
+}

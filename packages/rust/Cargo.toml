@@ -1,0 +1,16 @@
+[package]
+name = "is-railway"
+version = "1.0.0"
+edition = "2021"
+authors = ["Tomio <mail@tomio.codes>"]
+description = "Check if the current process is running inside Railway"
+keywords = ["railway", "check", "detect", "railwayapp"]
+license = "Apache-2.0"
+license-file = "LICENSE"
+repository = "https://github.com/1chiSensei/is-railway"
+homepage = "https://github.com/1chiSensei/is-railway/tree/main/packages/rust"
+categories = ["command-line-utilities", "authentication"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
