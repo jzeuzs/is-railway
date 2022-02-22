@@ -2,7 +2,7 @@
 
 # is-railway
 
-**Check if the current process is running inside Railway**
+**Check if the current process is running inside Railway.**
 
 [![GitHub](https://img.shields.io/github/license/1chiSensei/is-railway)](https://github.com/1chiSensei/is-railway/blob/main/LICENSE)
 

@@ -1,6 +1,6 @@
 [package]
 name = "is-railway"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Tomio <mail@tomio.codes>"]
 description = "Check if the current process is running inside Railway"
