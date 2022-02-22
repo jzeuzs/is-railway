@@ -1,0 +1,27 @@
+{
+  "projectName": "is-railway",
+  "projectOwner": "1chiSensei",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md",
+    "packages/node/README.md",
+    "packages/rust/README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "1chiSensei",
+      "name": "Tomio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75403863?v=4",
+      "profile": "https://github.com/1chiSensei",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

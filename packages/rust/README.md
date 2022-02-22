@@ -5,11 +5,13 @@
 ## Install
 
 > CLI:
+
 ```sh
 $ cargo install is-railway
 ```
 
 > As a dependency:
+
 ```toml
 # Cargo.toml
 
