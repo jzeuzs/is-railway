@@ -28,37 +28,23 @@
 
 You can use the following command to install this package.
 ```sh
-cargo install is-railway
+pip install is-railway
 ```
 
 Or as a dependency.
-```toml
-# Cargo.toml
+```
+# requirements.txt
 
-[dependencies]
-is-railway = "1.0.1"
+is-railway
 ```
 
 ## Usage
 
-**Note:** When using as a CLI, it exits with code 0 if running in Railway and 2 if not.
+```py
 
-### Basic Usage
+from is_railway import check # notice the underscore in the import rather than a dash
+print(check())
 
-```rust
-use is_railway::check;
-
-fn main() {
-    let is_running_on_railway = check();
-
-    println!("{}", is_running_on_railway);
-}
-```
-
-### CLI
-
-```sh
-$ is-railway
 ```
 
 ## Contributors ✨
